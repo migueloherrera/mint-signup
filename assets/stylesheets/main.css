@@ -71,7 +71,7 @@ table {
 }
 
 #container {
-  font-family: "AvenirNext-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
   width: 800px;
   margin: 0 auto;
 }
@@ -91,6 +91,7 @@ header ul {
 
 header ul li {
   display: inline-block;
+  font-size: .9em;
   padding: 5px;
 }
 
@@ -114,10 +115,11 @@ section {
   width: 65%;
   float: left;
   padding: 0 45px;
+  color: #393333;
 }
 
 form {
-  font-size: .9em;
+  font-size: .8em;
   line-height: 2;
 }
 
@@ -125,7 +127,7 @@ input {
   display: block;
   border: 1px solid #D3D3D3;
   border-radius: 3px;
-  margin: 15px 0 27px 0;
+  margin: 14px 0 24px 0;
   height: 34px;
   width: 75%;
   padding: 0 6px 0 8px;
@@ -141,27 +143,81 @@ input {
   padding-top: 18px;
 }
 
-
-
 input[type=submit] {
   width: 100px;
   background-color: #45CAE6;
   color: #BDF9F9;
 }
 
-aside {
-  width: 25%;
-  height: 370px;
+.wrapper {
   float: right;
+  width: 31%;
+  border-left: 1px solid #D3D3D3;
+}
+
+aside {
+  color: #796674;
+  height: 600px;
   background: #F5F5F5;
   padding: 15px;
   margin: 0 25px;
 }
 
 h1 {
-  font-size: 1.6em;
-  font-weight: lighter;
-  letter-spacing: 3px;
+  font-size: 1.8em;
   line-height: 1.5;
   margin-bottom: 40px;
+}
+
+p {
+  color: #949796;
+  font-size: .7em;
+  padding-bottom: 35px;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: lighter;
+  padding: 5px;
+}
+
+aside ul li {
+  font-size: 0.7em;
+  line-height: 1.2;
+  list-style-type: disc;
+  margin: 10px 10px 10px 20px;
+}
+
+span {
+  font-size: .9em;
+  text-decoration: underline;
+}
+
+footer {
+  padding: 40px 10px 0px 40px;
+  font-size: .8em;
+  color: #B1B4B4;
+}
+
+footer a {
+  color: #B1B4B4;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.logos {
+  width: 300px;
+  margin: 40px auto 0 auto;
+}
+
+.logos img {
+  display: block;
+  float: left;
+  margin: 5px 15px;
+}
+
+h6 {
+  font-size: .8em;
+  width: 220px;
+  margin: 20px auto 100px auto;
 }
